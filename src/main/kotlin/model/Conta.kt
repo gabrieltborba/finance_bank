@@ -10,22 +10,33 @@ class Conta(private val nomeTitular: String, private val numeroConta: Int) {
         println("------------")
     }
 
-    fun depositar(saldo: Double){
-        saldoTotal += saldo
+    fun depositar(valor: Double){
+        saldoTotal += valor
     }
 
-    fun sacar(saldo: Double): Boolean {
+    fun sacar(valor: Double): Boolean {
 
-        if(saldo < 0.0){
+        if(valor < 0.0){
             return false
         }
 
-        if((this.saldoTotal - saldo) < 0.0){
+        if((this.saldoTotal - valor) < 0.0){
             return false
         }
 
-        saldoTotal -= saldo
+        saldoTotal -= valor
         return true
+    }
+
+    fun transfere(contaDestino: Conta, valor: Double) : Boolean{
+
+        if(!sacar(valor)){
+            return false;
+        }
+
+        contaDestino.depositar(valor)
+        return true;
+
     }
 
     fun consultaSaldo(): Double {

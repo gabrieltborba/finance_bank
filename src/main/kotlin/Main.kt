@@ -18,8 +18,10 @@ fun main() {
     }
 
     println(contaGabriel.consultaSaldo())
-    contaGabriel.sacar(150.0)
-    println(contaGabriel.consultaSaldo())
+    contaGabriel.transfere(contaMillena, 1225.0)
+
+    contaGabriel.welcome()
+    contaMillena.welcome()
 
 }
 
