@@ -3,6 +3,10 @@ package model
 class Conta(private val nomeTitular: String, private val numeroConta: Int) {
     private var saldoTotal = 0.0
 
+    fun getSaldo(): Double {
+        return this.saldoTotal
+    }
+
     fun welcome() {
         println("Bem vindo ao Bytebank, ${this.nomeTitular} ")
         println("Número da conta: ${this.numeroConta}")
@@ -28,20 +32,17 @@ class Conta(private val nomeTitular: String, private val numeroConta: Int) {
         return true
     }
 
-    fun transfere(contaDestino: Conta, valor: Double) : Boolean{
+    fun transferir(contaDestino: Conta, valor: Double) : Boolean{
 
-        if(!sacar(valor)){
+        if(!this.sacar(valor)){
             return false;
         }
 
         contaDestino.depositar(valor)
         return true;
-
     }
 
-    fun consultaSaldo(): Double {
-        return this.saldoTotal
-    }
+
 
 
 }
