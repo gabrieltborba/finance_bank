@@ -1,21 +1,17 @@
 package model
 
-class Conta(private val nomeTitular: String, private val numeroConta: Int) {
-    private var saldoTotal = 0.0
-
-    fun getSaldo(): Double {
-        return this.saldoTotal
-    }
-
+class Conta(private var nomeTitular: String,private val numeroConta: Int) {
+    var saldo: Double = 0.0
+        private set
     fun welcome() {
         println("Bem vindo ao Bytebank, ${this.nomeTitular} ")
         println("Número da conta: ${this.numeroConta}")
-        println("Saldo Total: R$ ${this.saldoTotal}")
+        println("Saldo Total: R$ ${this.saldo}")
         println("------------")
     }
 
     fun depositar(valor: Double){
-        saldoTotal += valor
+        saldo += valor
     }
 
     fun sacar(valor: Double): Boolean {
@@ -24,11 +20,11 @@ class Conta(private val nomeTitular: String, private val numeroConta: Int) {
             return false
         }
 
-        if((this.saldoTotal - valor) < 0.0){
+        if((this.saldo - valor) < 0.0){
             return false
         }
 
-        saldoTotal -= valor
+        saldo -= valor
         return true
     }
 
@@ -41,8 +37,4 @@ class Conta(private val nomeTitular: String, private val numeroConta: Int) {
         contaDestino.depositar(valor)
         return true;
     }
-
-
-
-
 }
