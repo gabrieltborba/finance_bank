@@ -1,4 +1,6 @@
-package model
+package model.Funcionarios
+
+import model.Funcionarios.Funcionario
 
 class Diretor(
     nome: String,
@@ -8,7 +10,8 @@ class Diretor(
     val plr: Double
 ): Funcionario(nome = nome,cpf = cpf, salario = salario)  {
 
-    override fun bonificacao(): Double = super.bonificacao() + salario + plr
+    override val bonificacao: Double
+        get() = super.bonificacao + salario + plr
 
 
     fun autentica(senha: Int) : Boolean{

@@ -1,6 +1,6 @@
-package model
+package model.Contas
 
-class Conta(private var nomeTitular: String,private val numeroConta: Int) {
+open class Conta(private var nomeTitular: String, private val numeroConta: Int) {
     var saldo: Double = 0.0
         private set
     fun welcome() {
@@ -14,7 +14,7 @@ class Conta(private var nomeTitular: String,private val numeroConta: Int) {
         saldo += valor
     }
 
-    fun sacar(valor: Double): Boolean {
+    open fun sacar(valor: Double): Boolean {
 
         if(valor < 0.0){
             return false

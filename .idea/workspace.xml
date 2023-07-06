@@ -5,7 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b95ee97-47d2-4e1e-84cb-dfdf67fee994" name="Changes" comment="[Bytebank] Criado classe conta e metodos de saque,consulta,deposita">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/CalculadorBonificacao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/testes/TestaFuncionarios.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testes/TestaContas/TestaContas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MainConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +52,16 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank\src\main\kotlin" />
     </key>
+    <key name="CreateKotlinClassDialog.RecentsKey">
+      <recent name="testes.TestaContas" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="model.Contas" />
+      <recent name="model.Funcionarios" />
+    </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="model.Contas" />
+      <recent name="model.Funcionarios" />
       <recent name="model" />
     </key>
   </component>
