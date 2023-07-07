@@ -1,11 +1,10 @@
-import model.*
-import model.Contas.Conta
-import model.testes.TestaFuncionarios
-import testes.TestaContas.TestaContas
+
+import model.testes.*
 
 fun main() {
-    //TestaFuncionarios().testafuncionario()
-    TestaContas().testaContas()
+    testafuncionarios()
+    //testaContas()
+    //testaContasDiferentes()
 }
 
 

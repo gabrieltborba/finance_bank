@@ -1,12 +1,8 @@
-package testes.TestaContas
-
 import model.Contas.Conta
 import model.Contas.ContaCorrente
 import model.Contas.ContaPoupanca
 
-class TestaContas {
-
-    fun testaContas() {
+fun testaContas() {
         val arrayContas = ArrayList<Conta>()
 
         val contaGabriel = ContaCorrente("Gabriel", 1000)
@@ -30,4 +26,4 @@ class TestaContas {
         contaMillena.welcome()
     }
 
-}
+

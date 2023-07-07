@@ -1,8 +1,9 @@
 package model.Contas
 
-open class Conta(private var nomeTitular: String, private val numeroConta: Int) {
+abstract class Conta(private var nomeTitular: String, private val numeroConta: Int) {
     var saldo: Double = 0.0
-        private set
+        protected set
+
     fun welcome() {
         println("Bem vindo ao Bytebank, ${this.nomeTitular} ")
         println("Número da conta: ${this.numeroConta}")
@@ -14,19 +15,7 @@ open class Conta(private var nomeTitular: String, private val numeroConta: Int) 
         saldo += valor
     }
 
-    open fun sacar(valor: Double): Boolean {
-
-        if(valor < 0.0){
-            return false
-        }
-
-        if((this.saldo - valor) < 0.0){
-            return false
-        }
-
-        saldo -= valor
-        return true
-    }
+    abstract fun sacar(valor: Double): Boolean
 
     fun transferir(contaDestino: Conta, valor: Double) : Boolean{
 

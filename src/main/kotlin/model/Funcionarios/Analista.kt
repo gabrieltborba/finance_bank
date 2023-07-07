@@ -8,6 +8,6 @@ open class Analista(
     salario: Double
 ): Funcionario(nome,cpf,salario) {
     override val bonificacao: Double
-        get() = super.bonificacao + (this.salario* 0.1)
+        get() = salario*0.1 + (this.salario* 0.1)
 
 }

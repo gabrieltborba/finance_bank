@@ -5,18 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b95ee97-47d2-4e1e-84cb-dfdf67fee994" name="Changes" comment="[Bytebank] Criado classe conta e metodos de saque,consulta,deposita">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/CalculadorBonificacao.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/model/testes/TestaFuncionarios.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/testes/TestaContas/TestaContas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/MainConta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +41,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/gborba/Documents/workspace/dea-oms-ims-ecommerce-stock-integrator"
   }
 }]]></component>
@@ -56,6 +53,7 @@
       <recent name="testes.TestaContas" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="model.testes" />
       <recent name="model.Contas" />
       <recent name="model.Funcionarios" />
     </key>
