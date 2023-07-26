@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.kotest:kotest-runner-junit5-jvm:5.6.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.kotest" artifactId="kotest-runner-junit5-jvm" version="5.6.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-runner-junit5-jvm/5.6.2/4b195280056ed9f65f44711e8847199fc1264109/kotest-runner-junit5-jvm-5.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-runner-junit5-jvm/5.6.2/bbd7ab8243aa6e8cbe7e4a992311e08e7db30bef/kotest-runner-junit5-jvm-5.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

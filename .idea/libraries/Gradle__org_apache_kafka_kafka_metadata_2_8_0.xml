@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.kafka:kafka-metadata:2.8.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.apache.kafka" artifactId="kafka-metadata" version="2.8.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-metadata/2.8.0/35a3476cd1b9c54f3fa7b6e3cb57efa20fb4bb9b/kafka-metadata-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.kafka/kafka-metadata/2.8.0/4e42e7fe557a434c26c34af2d2a67099437ed67a/kafka-metadata-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

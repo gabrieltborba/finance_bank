@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.kotest:kotest-extensions-jvm:5.6.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.kotest" artifactId="kotest-extensions-jvm" version="5.6.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-extensions-jvm/5.6.2/6b922bb3dde5b9addb13205c1222e0b2a3114bb0/kotest-extensions-jvm-5.6.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest/kotest-extensions-jvm/5.6.2/479415be07e378f26490d297bca22eb844c02458/kotest-extensions-jvm-5.6.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

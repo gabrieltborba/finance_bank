@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.github.embeddedkafka:embedded-kafka_2.13:2.8.0" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.github.embeddedkafka" artifactId="embedded-kafka_2.13" version="2.8.0" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.embeddedkafka/embedded-kafka_2.13/2.8.0/17855cc70127b81a57b29f233b43327ddf5d57d/embedded-kafka_2.13-2.8.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.embeddedkafka/embedded-kafka_2.13/2.8.0/bc103fee2328efa7d4bc8e85cd1b68fbd33cf474/embedded-kafka_2.13-2.8.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

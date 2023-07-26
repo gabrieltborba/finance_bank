@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: io.kotest.extensions:kotest-extensions-embedded-kafka:1.0.6" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="io.kotest.extensions" artifactId="kotest-extensions-embedded-kafka" version="1.0.6" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest.extensions/kotest-extensions-embedded-kafka/1.0.6/fa215c3ba2b2d1eed83b96ccf634807079f38f3f/kotest-extensions-embedded-kafka-1.0.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.kotest.extensions/kotest-extensions-embedded-kafka/1.0.6/1a7aa32f5b505251c4d6a72d543d7a740094ab6f/kotest-extensions-embedded-kafka-1.0.6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

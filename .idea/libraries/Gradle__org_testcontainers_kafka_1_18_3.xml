@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.testcontainers:kafka:1.18.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.testcontainers" artifactId="kafka" version="1.18.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/kafka/1.18.3/a807b1ca131056cb02765344b412045219c3eac9/kafka-1.18.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/kafka/1.18.3/adee8af3ad6411ea631fe9d9125b162c9740b75e/kafka-1.18.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

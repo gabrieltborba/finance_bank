@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.testcontainers:elasticsearch:1.18.3" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.testcontainers" artifactId="elasticsearch" version="1.18.3" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/elasticsearch/1.18.3/6494043e9cb7379717731986699f4c3f189a6537/elasticsearch-1.18.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.testcontainers/elasticsearch/1.18.3/f88421e78dfe69de67c0f03ca41b26eb5227eabd/elasticsearch-1.18.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

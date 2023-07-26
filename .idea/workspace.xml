@@ -5,25 +5,73 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b95ee97-47d2-4e1e-84cb-dfdf67fee994" name="Changes" comment="[Bytebank] Criado classe conta e metodos de saque,consulta,deposita">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/gradlew.bat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/Conta.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaCorrente.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Contas/ContaPoupanca.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Analista.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Diretor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Funcionario.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/model/Funcionarios/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api_bank.iml" beforeDir="false" afterPath="$PROJECT_DIR$/api_bank.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/Main.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/domain/CalculadorBonificacao.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/domain/CalculadorBonificacao.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/domain/SistemaInterno.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/domain/SistemaInterno.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/infrastructure/Autenticavel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/infrastructure/Autenticavel.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/infrastructure/ContaService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/infrastructure/ContaService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/Cliente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/Cliente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/contas/Conta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/contas/Conta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/contas/ContaCorrente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/contas/ContaCorrente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/contas/ContaPoupanca.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/contas/ContaPoupanca.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/contas/ContaSalario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/contas/ContaSalario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/funcionarios/Analista.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/funcionarios/Analista.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/funcionarios/Diretor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/funcionarios/Diretor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/funcionarios/Funcionario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/funcionarios/Funcionario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/funcionarios/FuncionarioAdmin.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/funcionarios/FuncionarioAdmin.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/main/model/funcionarios/Gerente.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/gabrielborba/financebank/model/funcionarios/Gerente.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaContas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/gabrielborba/financebank/contas/ContasTeste.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaContasDiferentes.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/gabrielborba/financebank/contas/ContasDiferentesTeste.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/teste/testaFuncionarios.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/gabrielborba/financebank/funcionarios/FuncionariosTeste.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/src">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/src">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Script" />
       </list>
     </option>
   </component>
@@ -31,39 +79,86 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="2RtXaqXUKQrNObf0CouB3QMuxrr" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/gborba/Documents/workspace/dea-oms-ims-ecommerce-stock-integrator"
+    "last_opened_file_path": "C:/Users/gborba/Documents/personal-workspace/finance_bank",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank\src\test\kotlin\funcionarios" />
+      <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank\src\test\kotlin\contas" />
+      <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank\src\main\kotlin\main" />
       <recent name="C:\Users\gborba\Documents\personal-workspace\finance_bank\src\main\kotlin" />
     </key>
     <key name="CreateKotlinClassDialog.RecentsKey">
       <recent name="testes.TestaContas" />
     </key>
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="main.domain" />
+      <recent name="main.infrastructure" />
       <recent name="model.testes" />
       <recent name="model.Contas" />
       <recent name="model.Funcionarios" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
-      <recent name="model.Contas" />
       <recent name="model.Funcionarios" />
+      <recent name="model.Contas" />
       <recent name="model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="gradle clean build" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotest.FuncionariosTeste: Should test employee">
+    <configuration name="src [clean build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/src" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="clean" />
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>false</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="finance_bank" />
       <method v="2">
@@ -77,6 +172,59 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ContasDiferentesTeste: Should different account" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="api_bank" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="br.com.gabrielborba.financebank.contas.ContasDiferentesTeste" />
+      <option name="testPath" value="Should different account" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContasTeste: Should teste account" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="api_bank" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="ContasTeste" />
+      <option name="testPath" value="Should teste account " />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FuncionariosTeste: Should test employee" type="ioKotest" factoryName="Kotest" temporary="true" defaultName="singleModule">
+      <module name="api_bank" />
+      <option name="jrePath" value="" />
+      <option name="jrePathEnabled" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" value="$MODULE_WORKING_DIR$" />
+      <option name="programParameters" value="" />
+      <option name="specName" value="br.com.gabrielborba.financebank.funcionarios.FuncionariosTeste" />
+      <option name="testPath" value="Should test employee" />
+      <option name="packageName" value="" />
+      <option name="vmparams" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotest.FuncionariosTeste: Should test employee" />
+        <item itemvalue="Kotest.ContasDiferentesTeste: Should different account" />
+        <item itemvalue="Kotest.ContasTeste: Should teste account" />
+        <item itemvalue="Gradle.src [clean build]" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -109,6 +257,7 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="[Bytebank] Criado classe conta e metodos de saque,consulta,deposita" />
     <option name="LAST_COMMIT_MESSAGE" value="[Bytebank] Criado classe conta e metodos de saque,consulta,deposita" />
   </component>
